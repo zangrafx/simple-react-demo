@@ -1,0 +1,5 @@
+# generated files
+dist
+
+# vendor libraries
+node_modules

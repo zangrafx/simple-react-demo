@@ -1,0 +1,20 @@
+{
+    "dependencies": {
+        "react": "0.x"
+    },
+    "devDependencies": {
+        "babel-loader": "4.x",
+        "babel-runtime": "4.x",
+        "gulp": "3.x",
+        "webpack": "1.x"
+    },
+    "engines": {
+        "node": ">=0.12"
+    },
+    "name": "react-webpack-boilerplate",
+    "private": true,
+    "scripts": {
+        "test": "gulp test"
+    },
+    "version": "0.0.0"
+}
