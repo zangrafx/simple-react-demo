@@ -6,6 +6,7 @@
         "babel-loader": "4.x",
         "babel-runtime": "4.x",
         "gulp": "3.x",
+        "imports-loader": "0.x",
         "webpack": "1.x"
     },
     "engines": {

@@ -40,6 +40,13 @@ function webpackTask(isDebugMode, done) {
         "module": {
             "loaders": [
                 {
+                    // bower components usually expect to run in browser
+                    // environment and sometimes assume that global 'this'
+                    // is always the Window object which is a mistake
+                    "test": /bower_components/,
+                    "loader": "imports?this=>window"
+                },
+                {
                     "test": /\.jsx$/,
                     "exclude": /(bower_components|node_modules)/,
                     "loader": "babel-loader?" + querystring.stringify({
