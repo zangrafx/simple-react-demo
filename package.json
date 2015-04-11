@@ -1,21 +1,31 @@
 {
-    "dependencies": {
-        "react": "0.x"
-    },
-    "devDependencies": {
-        "babel-loader": "4.x",
-        "babel-runtime": "4.x",
-        "gulp": "3.x",
-        "imports-loader": "0.x",
-        "webpack": "1.x"
-    },
-    "engines": {
-        "node": ">=0.12"
-    },
-    "name": "simple-react-demo",
-    "private": true,
-    "scripts": {
-        "test": "gulp test"
-    },
-    "version": "0.0.1"
+  "dependencies": {
+    "material-ui": "^0.7.3",
+    "react": "0.x",
+    "react-tap-event-plugin": "^0.1.6"
+  },
+  "devDependencies": {
+    "babel-loader": "4.x",
+    "babel-runtime": "4.x",
+    "gulp": "3.x",
+    "imports-loader": "0.x",
+    "webpack": "1.x",
+    "browser-sync": "2.x",
+    "gulp-changed": "1.x",
+    "gulp-filter": "1.x",
+    "gulp-less": "3.x",
+    "gulp-plumber": "0.x",
+    "gulp-rename": "1.x",
+    "gulp-sourcemaps": "1.x",
+    "gulp-util": "3.x"
+  },
+  "engines": {
+    "node": ">=0.12"
+  },
+  "name": "simple-react-demo",
+  "private": true,
+  "scripts": {
+    "test": "gulp test"
+  },
+  "version": "0.0.1"
 }
